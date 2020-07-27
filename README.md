@@ -1,2 +1,3 @@
-"# GW2-Project" 
-"# GW2-Project" 
+# Software Architecture Project
+
+Guild Wars 2 Daily Achievement Tracker
