@@ -22,6 +22,7 @@ class ReusablePool(metaclass = Singleton):
     def release(self, reusable):
         self._reusables.append(reusable)
 
+# Reuseable Redis Labs database connection
 class Reusable:
     def __init__(self):
         self.conn = redis.Redis(
